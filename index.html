@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body class="tema1">
+    <div class="container">
+      <div class="calculadora">
+        <div class="header col-2">
+          <div class="calc"><p>Calc</p></div>
+
+          <div class="izquierda">
+            <p class="tema">Theme</p>
+            <div class="switch" id="switch">
+              <span id="toggle" class="togle"></span>
+              <div id="tema" class="temas">
+                <button data-tema="1" id="1">1</button>
+                <button data-tema="2" id="2">2</button>
+                <button data-tema="3" id="3">3</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="display col-2">
+          <div id="valor-anterior">0</div>
+          <div id="valor-actual" class="val-act">0</div>
+        </div>
+        <div id="botones" class="botones">
+          <button class="boton key">7</button>
+          <button class="boton key">8</button>
+          <button class="boton key">9</button>
+          <button class="boton boton-azul del key">DEL</button>
+          <button class="boton key">4</button>
+          <button class="boton key">5</button>
+          <button class="boton key">6</button>
+          <button class="boton key">+</button>
+          <button class="boton key">1</button>
+          <button class="boton key">2</button>
+          <button class="boton key">3</button>
+          <button class="boton key">-</button>
+          <button class="boton key">.</button>
+          <button class="boton key">0</button>
+          <button class="boton key">/</button>
+          <button class="boton key">*</button>
+          <button class="boton-azul reset key">Limpiar</button>
+          <button class="igual key">=</button>
+        </div>
+      </div>
+    </div>
+   <script src="build/js/bundle.min.js"></script>
+  </body>
+</html>
